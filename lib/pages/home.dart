@@ -9,21 +9,32 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: CustomScrollView(slivers: <Widget>[
-        SliverAppBar(
-          title: MainAppBar(),
-          backgroundColor: Colors.white,
-          pinned: true,
-          expandedHeight: 200,
-          shape: ContinuousRectangleBorder(
-              borderRadius: BorderRadius.only(
-                  bottomLeft: Radius.circular(100),
-                  bottomRight: Radius.circular(100))),
+      body: Container(
+
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            alignment: Alignment.bottomCenter,
+            fit: BoxFit.fitWidth,
+            image: AssetImage("assets/img/sport.jpg")
+          )
         ),
-        SliverList(
-            delegate: SliverChildListDelegate(
-                <Widget>[continue_button(), setup_button()]))
-      ]),
+        child: CustomScrollView(slivers: <Widget>[
+          SliverAppBar(
+            title: MainAppBar(),
+            backgroundColor: Colors.black,
+            pinned: true,
+            expandedHeight: 0,
+            shape: ContinuousRectangleBorder(
+                borderRadius: BorderRadius.only(
+                    bottomLeft: Radius.circular(0),
+                    bottomRight: Radius.circular(0))),
+          ),
+          SliverPadding(padding: EdgeInsets.symmetric(vertical: 50)),
+          SliverList(
+              delegate: SliverChildListDelegate(
+                  <Widget>[continue_button(), setup_button()])),
+        ]),
+      ),
     );
   }
 }

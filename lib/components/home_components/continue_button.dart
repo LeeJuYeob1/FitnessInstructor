@@ -62,20 +62,29 @@ class _continue_buttonState extends State<continue_button> {
                         children: [
                           Container(
                             height: 200,
-                            width: 250,
+                            width: 245,
                             child: Center(
-                              child: Text(
-                                "CONTINUE\nWORKOUT",
-                                style: TextStyle(
-                                    fontFamily: 'Roboto',
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.bold),
+                              child: Container(
+                                alignment: Alignment(0.0, -0.9),
+                                child: Text(
+                                  "CONTINUE WORKOUT",
+                                  style: TextStyle(
+                                      fontFamily: 'Roboto',
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.yellowAccent,
+                                      ),
+                                ),
                               ),
                             ),
                             decoration: BoxDecoration(
                               color: Colors.green[100],
-                              borderRadius: BorderRadius.only(
-                                  bottomRight: Radius.circular(100)),
+                              image: DecorationImage(
+                                image: AssetImage('assets/img/unnamed.jpg'), fit: BoxFit.fill,
+                              ),
+                                borderRadius: BorderRadius.only(
+                                    bottomRight: Radius.circular(100))
+
                             ),
                           ),
                           Container()
@@ -93,7 +102,7 @@ class _continue_buttonState extends State<continue_button> {
                   child: Container(
                     child: Center(
                       child: Image.asset(
-                        'assets/img/continue_icon.png',
+                        'assets/img/fiticon.png',
                         height: 40,
                         width: 40,
                       ),

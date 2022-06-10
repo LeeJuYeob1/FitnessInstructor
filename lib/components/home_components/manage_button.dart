@@ -47,16 +47,23 @@ class _setup_buttonState extends State<setup_button> {
                             height: 200,
                             width: 250,
                             child: Center(
-                              child: Text(
-                                "MANAGE\nWORKOUTS",
-                                style: TextStyle(
-                                    fontFamily: 'Roboto',
-                                    fontSize: 20,
-                                    fontWeight: FontWeight.bold),
+                              child: Container(
+                                alignment: Alignment(0.0, -0.8),
+                                child: Text(
+                                  "MANAGE WORKOUTS",
+                                  style: TextStyle(
+                                      fontFamily: 'Roboto',
+                                      fontSize: 20,
+                                      color: Colors.yellowAccent,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
                             decoration: BoxDecoration(
-                              color: Colors.red[100],
+                              image: DecorationImage(
+                                image: AssetImage('assets/img/schedule.jpg'),
+                                fit: BoxFit.fitWidth
+                              ),
                               borderRadius: BorderRadius.only(
                                   bottomRight: Radius.circular(100)),
                             ),

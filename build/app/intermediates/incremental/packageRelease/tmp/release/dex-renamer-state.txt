@@ -1,0 +1,4 @@
+#Tue Apr 12 17:04:37 KST 2022
+base.0=C\:\\MobliePro\\fitnessinstructor\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

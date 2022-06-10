@@ -11,11 +11,11 @@ class MainAppBar extends StatelessWidget {
           child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Image.asset('assets/img/hamburger_icon.png', width: 20, height: 20),
+          Image.asset('assets/img/hamburger_icon.png', width: 20, height: 20, color: Colors.white),
           const Padding(
             padding: EdgeInsets.fromLTRB(15, 0, 0, 0),
-            child: Text("ReactFitness",
-                style: TextStyle(fontFamily: 'Roboto', color: Colors.black)),
+            child: Text("AI HEALTH CARE",
+                style: TextStyle(fontFamily: 'Roboto', color: Colors.white)),
           ),
           Image.asset('assets/img/shoulder_press_icon.png',
               width: 35, height: 35)

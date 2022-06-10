@@ -147,7 +147,7 @@ class _TestState extends State<Test> {
 
   void loadCamera() {
     setState(() {
-      cameraController = CameraController(cameras![1], ResolutionPreset.medium);
+      cameraController = CameraController(cameras![0], ResolutionPreset.medium);
     });
     cameraController!.initialize().then((value) {
       if (!mounted) {
