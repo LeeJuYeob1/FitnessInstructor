@@ -80,7 +80,7 @@ class _AddWorkoutState extends State<AddWorkout> {
                           child: Container(
                             child: Center(
                               child: Image.asset(
-                                'assets/img/card_dumbellcurl.png',
+                                'assets/img/Squat.png',
                                 height: card_height,
                                 width: card_width,
                               ),
@@ -90,7 +90,7 @@ class _AddWorkoutState extends State<AddWorkout> {
                         decoration: includedExercises
                                 .contains(Exercises["dumbell_curl"])
                             ? BoxDecoration(
-                                borderRadius: BorderRadius.circular(50),
+                                borderRadius: BorderRadius.circular(0),
                                 boxShadow: [
                                     BoxShadow(
                                       color: Colors.green,
@@ -109,7 +109,7 @@ class _AddWorkoutState extends State<AddWorkout> {
                           onTap: () => onSelect(Exercises["lateral_raise"]),
                           child: Center(
                             child: Image.asset(
-                                'assets/img/card_lateralraise.png',
+                                'assets/img/Lateralraise.png',
                                 height: card_height,
                                 width: card_width),
                           ),
@@ -117,7 +117,7 @@ class _AddWorkoutState extends State<AddWorkout> {
                         decoration: includedExercises
                                 .contains(Exercises["lateral_raise"])
                             ? BoxDecoration(
-                                borderRadius: BorderRadius.circular(50),
+                                borderRadius: BorderRadius.circular(0),
                                 boxShadow: [
                                     BoxShadow(
                                       color: Colors.green,
@@ -142,7 +142,7 @@ class _AddWorkoutState extends State<AddWorkout> {
                           onTap: () => onSelect(Exercises["shoulder_press"]),
                           child: Center(
                             child: Image.asset(
-                                'assets/img/card_shoulderpress.png',
+                                'assets/img/Lunge.png',
                                 height: card_height,
                                 width: card_width),
                           ),
@@ -150,7 +150,7 @@ class _AddWorkoutState extends State<AddWorkout> {
                         decoration: includedExercises
                                 .contains(Exercises["shoulder_press"])
                             ? BoxDecoration(
-                                borderRadius: BorderRadius.circular(50),
+                                borderRadius: BorderRadius.circular(0),
                                 boxShadow: [
                                     BoxShadow(
                                       color: Colors.green,

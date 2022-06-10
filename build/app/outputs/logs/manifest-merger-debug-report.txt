@@ -1,140 +1,140 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml:3:4-34:19
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.core:core:1.6.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\3e4901982a71aada82813042d038c929\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\3e4901982a71aada82813042d038c929\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml:3:4-34:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3e4901982a71aada82813042d038c929\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3e4901982a71aada82813042d038c929\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml:1:1-35:12
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml:1:1-35:12
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml:1:1-35:12
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml:1:1-35:12
-MERGED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml:1:1-35:12
-MERGED from [:tflite_flutter_helper] C:\MobliePro\fitnessinstructor\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:camera] C:\MobliePro\fitnessinstructor\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
-MERGED from [:flutter_plugin_android_lifecycle] C:\MobliePro\fitnessinstructor\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:path_provider_android] C:\MobliePro\fitnessinstructor\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:tflite_flutter] C:\MobliePro\fitnessinstructor\build\tflite_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\70c4c911134b7fec1dd320414c4280c0\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\cfa02e57804145957290064b2909d7e2\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\53dc9c536270a2a802e3bb6f5cebc5d8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\3e1f03248afab4fcdccc7dffca6334e9\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\7ff9229dd315491352c78820bafbd70d\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\57a4863630e0bdf077a3317f1bd32de2\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\a0adb2497ce9703b59f3edcd01c3150e\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\9f3e98a7f8484ae11bc3f1dcf43bef81\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\2051459cb12bb9244b247c1e83d3b034\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\0e651f50c2d7b7a4351c74a468a7999d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\aa340e679244e1bd6ac86ada6635df6c\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\e5d7b50ecc646b3015338365ef22447e\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\3e4901982a71aada82813042d038c929\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\7dae2f05b66cc98fdf4a37e49717e5bb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\c3d2ef5fdf1176be195617944ace785c\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+ADDED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+MERGED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+MERGED from [:tflite_flutter_helper] C:\FlutterPro\FinalPRoject\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:camera] C:\FlutterPro\FinalPRoject\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [:flutter_plugin_android_lifecycle] C:\FlutterPro\FinalPRoject\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:path_provider_android] C:\FlutterPro\FinalPRoject\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:tflite_flutter] C:\FlutterPro\FinalPRoject\build\tflite_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\70c4c911134b7fec1dd320414c4280c0\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cfa02e57804145957290064b2909d7e2\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\53dc9c536270a2a802e3bb6f5cebc5d8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3e1f03248afab4fcdccc7dffca6334e9\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7ff9229dd315491352c78820bafbd70d\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\57a4863630e0bdf077a3317f1bd32de2\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a0adb2497ce9703b59f3edcd01c3150e\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\9f3e98a7f8484ae11bc3f1dcf43bef81\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2051459cb12bb9244b247c1e83d3b034\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0e651f50c2d7b7a4351c74a468a7999d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\aa340e679244e1bd6ac86ada6635df6c\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\e5d7b50ecc646b3015338365ef22447e\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3e4901982a71aada82813042d038c929\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7dae2f05b66cc98fdf4a37e49717e5bb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c3d2ef5fdf1176be195617944ace785c\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml:2:5-34
-		INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml
+		ADDED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml:2:5-34
+		INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml:1:1-35:12
-		INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml:1:1-35:12
-		INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml:1:1-35:12
+		INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml
-MERGED from [:tflite_flutter_helper] C:\MobliePro\fitnessinstructor\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:tflite_flutter_helper] C:\MobliePro\fitnessinstructor\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:camera] C:\MobliePro\fitnessinstructor\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:camera] C:\MobliePro\fitnessinstructor\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] C:\MobliePro\fitnessinstructor\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_plugin_android_lifecycle] C:\MobliePro\fitnessinstructor\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] C:\MobliePro\fitnessinstructor\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:path_provider_android] C:\MobliePro\fitnessinstructor\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:tflite_flutter] C:\MobliePro\fitnessinstructor\build\tflite_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:tflite_flutter] C:\MobliePro\fitnessinstructor\build\tflite_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\70c4c911134b7fec1dd320414c4280c0\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\70c4c911134b7fec1dd320414c4280c0\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\cfa02e57804145957290064b2909d7e2\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\cfa02e57804145957290064b2909d7e2\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\53dc9c536270a2a802e3bb6f5cebc5d8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\53dc9c536270a2a802e3bb6f5cebc5d8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\3e1f03248afab4fcdccc7dffca6334e9\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\3e1f03248afab4fcdccc7dffca6334e9\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\7ff9229dd315491352c78820bafbd70d\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\7ff9229dd315491352c78820bafbd70d\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\57a4863630e0bdf077a3317f1bd32de2\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\57a4863630e0bdf077a3317f1bd32de2\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\a0adb2497ce9703b59f3edcd01c3150e\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\a0adb2497ce9703b59f3edcd01c3150e\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\9f3e98a7f8484ae11bc3f1dcf43bef81\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\9f3e98a7f8484ae11bc3f1dcf43bef81\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\2051459cb12bb9244b247c1e83d3b034\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\2051459cb12bb9244b247c1e83d3b034\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\0e651f50c2d7b7a4351c74a468a7999d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\0e651f50c2d7b7a4351c74a468a7999d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\aa340e679244e1bd6ac86ada6635df6c\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\aa340e679244e1bd6ac86ada6635df6c\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\e5d7b50ecc646b3015338365ef22447e\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\e5d7b50ecc646b3015338365ef22447e\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\3e4901982a71aada82813042d038c929\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\3e4901982a71aada82813042d038c929\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\7dae2f05b66cc98fdf4a37e49717e5bb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\7dae2f05b66cc98fdf4a37e49717e5bb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\c3d2ef5fdf1176be195617944ace785c\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\c3d2ef5fdf1176be195617944ace785c\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml
+MERGED from [:tflite_flutter_helper] C:\FlutterPro\FinalPRoject\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:tflite_flutter_helper] C:\FlutterPro\FinalPRoject\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:camera] C:\FlutterPro\FinalPRoject\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:camera] C:\FlutterPro\FinalPRoject\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] C:\FlutterPro\FinalPRoject\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] C:\FlutterPro\FinalPRoject\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\FlutterPro\FinalPRoject\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] C:\FlutterPro\FinalPRoject\build\path_provider_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:tflite_flutter] C:\FlutterPro\FinalPRoject\build\tflite_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:tflite_flutter] C:\FlutterPro\FinalPRoject\build\tflite_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\70c4c911134b7fec1dd320414c4280c0\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\70c4c911134b7fec1dd320414c4280c0\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cfa02e57804145957290064b2909d7e2\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\cfa02e57804145957290064b2909d7e2\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\53dc9c536270a2a802e3bb6f5cebc5d8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\53dc9c536270a2a802e3bb6f5cebc5d8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3e1f03248afab4fcdccc7dffca6334e9\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3e1f03248afab4fcdccc7dffca6334e9\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7ff9229dd315491352c78820bafbd70d\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7ff9229dd315491352c78820bafbd70d\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\57a4863630e0bdf077a3317f1bd32de2\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\57a4863630e0bdf077a3317f1bd32de2\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a0adb2497ce9703b59f3edcd01c3150e\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\a0adb2497ce9703b59f3edcd01c3150e\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\9f3e98a7f8484ae11bc3f1dcf43bef81\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\9f3e98a7f8484ae11bc3f1dcf43bef81\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2051459cb12bb9244b247c1e83d3b034\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\2051459cb12bb9244b247c1e83d3b034\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0e651f50c2d7b7a4351c74a468a7999d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\0e651f50c2d7b7a4351c74a468a7999d\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\aa340e679244e1bd6ac86ada6635df6c\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\aa340e679244e1bd6ac86ada6635df6c\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\e5d7b50ecc646b3015338365ef22447e\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\e5d7b50ecc646b3015338365ef22447e\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3e4901982a71aada82813042d038c929\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\3e4901982a71aada82813042d038c929\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7dae2f05b66cc98fdf4a37e49717e5bb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\7dae2f05b66cc98fdf4a37e49717e5bb\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c3d2ef5fdf1176be195617944ace785c\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\c3d2ef5fdf1176be195617944ace785c\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml
+		INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml:6:5-66
+ADDED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from [:tflite_flutter_helper] C:\MobliePro\fitnessinstructor\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-71
-MERGED from [:camera] C:\MobliePro\fitnessinstructor\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-71
-MERGED from [:camera] C:\MobliePro\fitnessinstructor\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-71
+ADDED from [:tflite_flutter_helper] C:\FlutterPro\FinalPRoject\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-71
+MERGED from [:camera] C:\FlutterPro\FinalPRoject\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-71
+MERGED from [:camera] C:\FlutterPro\FinalPRoject\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-71
 	android:name
-		ADDED from [:tflite_flutter_helper] C:\MobliePro\fitnessinstructor\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-68
+		ADDED from [:tflite_flutter_helper] C:\FlutterPro\FinalPRoject\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-68
 uses-permission#android.permission.CAMERA
-ADDED from [:camera] C:\MobliePro\fitnessinstructor\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+ADDED from [:camera] C:\FlutterPro\FinalPRoject\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from [:camera] C:\MobliePro\fitnessinstructor\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
+		ADDED from [:camera] C:\FlutterPro\FinalPRoject\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
 uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
 uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\¿Ã¡÷ø±\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51

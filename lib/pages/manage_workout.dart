@@ -44,8 +44,13 @@ class _ManageWorkoutState extends State<ManageWorkout> {
                 )
               ];
             },
-            body: TabBarView(
-              children: [SetupWorkout(), SetupRoutine()],
+            body: Container(
+              decoration: BoxDecoration(
+                color: Colors.black
+              ),
+              child: TabBarView(
+                children: [SetupWorkout(), SetupRoutine()],
+              ),
             )),
       ),
     );

@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
         decoration: BoxDecoration(
           image: DecorationImage(
             alignment: Alignment.bottomCenter,
-            fit: BoxFit.fitWidth,
+            fit: BoxFit.fitHeight,
             image: AssetImage("assets/img/sport.jpg")
           )
         ),

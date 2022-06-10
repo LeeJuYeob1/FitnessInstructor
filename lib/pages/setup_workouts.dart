@@ -102,6 +102,9 @@ class _SetupWorkoutState extends State<SetupWorkout> {
                   child: Text(
                     "No workouts available",
                     textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.white
+                    ),
                   ),
                 ),
           Positioned(

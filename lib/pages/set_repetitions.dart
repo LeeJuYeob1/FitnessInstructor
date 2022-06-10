@@ -53,9 +53,12 @@ class _SetRepetitionsState extends State<SetRepetitions> {
                 width: 35, height: 35)
           ],
         ),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.black87,
       ),
       body: Container(
+        decoration: BoxDecoration(
+          color: Colors.black
+        ),
         height: 1000,
         child: Stack(children: [
           ClipRect(
@@ -68,7 +71,7 @@ class _SetRepetitionsState extends State<SetRepetitions> {
                   ),
                   Text(" Set exercise sets and repetitions",
                       textAlign: TextAlign.center,
-                      style: TextStyle(fontFamily: 'Roboto', fontSize: 25)),
+                      style: TextStyle(fontFamily: 'Roboto', fontSize: 25, color: Colors.white)),
                   Container(
                     child: ClipRect(
                         child: Column(
@@ -87,42 +90,56 @@ class _SetRepetitionsState extends State<SetRepetitions> {
                                     Row(
                                       children: [
                                         Column(children: [
-                                          Text('Reps'),
+                                          Text('Reps', style: TextStyle(color: Colors.white)),
                                           Text(exercise.reps.toInt().toString(),
                                               style: TextStyle(
                                                   fontFamily: 'Roboto',
-                                                  fontSize: 30)),
+                                                  fontSize: 30, color: Colors.white)),
                                         ]),
                                         SizedBox(
                                           width: 140,
-                                          child: Slider(
-                                              value: exercise.reps.toDouble(),
-                                              min: 1,
-                                              max: 30,
-                                              onChanged: (value) =>
-                                                  onSliderChange(
-                                                      0, value, exercise)),
+                                          child: SliderTheme(
+                                            data: SliderThemeData(
+                                                activeTrackColor: Colors.white,
+                                                thumbColor: Colors.white,
+                                                inactiveTrackColor: Colors.blueGrey
+                                            ),
+                                            child: Slider(
+                                                value: exercise.reps.toDouble(),
+                                                min: 1,
+                                                max: 30,
+                                                onChanged: (value) =>
+                                                    onSliderChange(
+                                                        0, value, exercise)),
+                                          ),
                                         )
                                       ],
                                     ),
                                     Row(
                                       children: [
                                         Column(children: [
-                                          Text('Sets'),
+                                          Text('Sets', style: TextStyle(color: Colors.white),),
                                           Text(exercise.sets.toInt().toString(),
                                               style: TextStyle(
                                                   fontFamily: 'Roboto',
-                                                  fontSize: 30)),
+                                                  fontSize: 30, color: Colors.white)),
                                         ]),
                                         SizedBox(
                                           width: 140,
-                                          child: Slider(
-                                              value: exercise.sets.toDouble(),
-                                              min: 1,
-                                              max: 30,
-                                              onChanged: (value) =>
-                                                  onSliderChange(
-                                                      1, value, exercise)),
+                                          child: SliderTheme(
+                                            data: SliderThemeData(
+                                              activeTrackColor: Colors.white,
+                                              thumbColor: Colors.white,
+                                              inactiveTrackColor: Colors.blueGrey
+                                            ),
+                                            child: Slider(
+                                                value: exercise.sets.toDouble(),
+                                                min: 1,
+                                                max: 30,
+                                                onChanged: (value) =>
+                                                    onSliderChange(
+                                                        1, value, exercise)),
+                                          ),
                                         )
                                       ],
                                     )
