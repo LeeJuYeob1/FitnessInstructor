@@ -65,7 +65,7 @@ class _SetupWorkoutState extends State<SetupWorkout> {
                     ),
                     Center(
                       child: Text("Your workouts",
-                          style: TextStyle(fontFamily: 'Roboto', fontSize: 25)),
+                          style: TextStyle(fontFamily: 'Roboto', fontSize: 30, fontWeight: FontWeight.bold)),
                     ),
                     ListView.builder(
                       scrollDirection: Axis.vertical,
@@ -76,7 +76,10 @@ class _SetupWorkoutState extends State<SetupWorkout> {
                         printWrapped("On build item: " + exercise.toString());
                         return Container(
                           decoration: BoxDecoration(
-                            color: Colors.white,
+                            image: DecorationImage(
+                              image: AssetImage('assets/img/Workout/' + exercise["workout_no"] +'.jpg'),
+                              fit: BoxFit.cover
+                            ),
                             borderRadius: BorderRadius.only(
                                 topLeft: Radius.circular(10),
                                 topRight: Radius.circular(10),
@@ -103,7 +106,8 @@ class _SetupWorkoutState extends State<SetupWorkout> {
                     "No workouts available",
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      color: Colors.white
+                      color: Colors.white,
+                      fontSize: 20
                     ),
                   ),
                 ),
@@ -139,13 +143,13 @@ class _SetupWorkoutState extends State<SetupWorkout> {
         key: ValueKey(workout),
         contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
         title: Text(workout["workout_no"],
-            style: TextStyle(fontFamily: 'Roboto', fontSize: 20)),
+            style: TextStyle(fontFamily: 'Roboto', fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white)),
         subtitle: buildText(workout["workout_list"]),
         trailing: IconButton(
             onPressed: () => setState(() {
                   jsonHandler.deleteWorkout(workout["workout_no"]);
                 }),
-            icon: Icon(Icons.delete)),
+            icon: Icon(Icons.delete, color: Colors.white)),
       );
 
   Widget buildText(List<dynamic> workouts) {
@@ -159,7 +163,7 @@ class _SetupWorkoutState extends State<SetupWorkout> {
       }
     }
     exerciseList = exerciseList.substring(0, exerciseList.length - 2);
-    return Text(exerciseList);
+    return Text(exerciseList, style: TextStyle(color: Colors.white),);
   }
 
   // UNCOMMENT

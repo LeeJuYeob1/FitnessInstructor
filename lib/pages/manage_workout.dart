@@ -46,7 +46,10 @@ class _ManageWorkoutState extends State<ManageWorkout> {
             },
             body: Container(
               decoration: BoxDecoration(
-                color: Colors.black
+                image: DecorationImage(
+                  fit: BoxFit.fitWidth,
+                  image: AssetImage("assets/img/Artboard.png"),
+                colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.7), BlendMode.dstATop))
               ),
               child: TabBarView(
                 children: [SetupWorkout(), SetupRoutine()],

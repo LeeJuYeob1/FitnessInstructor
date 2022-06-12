@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\FlutterPro\\FinalPRoject\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\MobliePro\\fitnessinstructor\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\FlutterPro\\FinalPRoject\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\MobliePro\\fitnessinstructor\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

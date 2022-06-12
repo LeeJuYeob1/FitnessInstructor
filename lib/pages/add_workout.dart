@@ -58,6 +58,13 @@ class _AddWorkoutState extends State<AddWorkout> {
         backgroundColor: Colors.black,
       ),
       body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+              fit: BoxFit.fitWidth,
+              image: AssetImage("assets/img/Artboard.png"),
+              colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.7), BlendMode.dstATop)
+          )
+        ),
         child: Stack(
           children: [
             Positioned(

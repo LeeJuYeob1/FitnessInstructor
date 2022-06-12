@@ -15,7 +15,8 @@ class Home extends StatelessWidget {
           image: DecorationImage(
             alignment: Alignment.bottomCenter,
             fit: BoxFit.fitHeight,
-            image: AssetImage("assets/img/sport.jpg")
+            image: AssetImage("assets/img/sport.jpg"),
+            colorFilter: ColorFilter.mode(Colors.black.withOpacity(0.7), BlendMode.dstIn)
           )
         ),
         child: CustomScrollView(slivers: <Widget>[

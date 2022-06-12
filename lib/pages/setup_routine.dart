@@ -16,39 +16,11 @@ class SetupRoutine extends StatefulWidget {
 class _SetupRoutineState extends State<SetupRoutine> {
   late JsonHandler jsonHandler;
 
-  // UNCOMMENT
-
-  // late File workoutJsonFile;
-  // late File weekJsonFile;
-
-  // late Directory dir;
-
-  // String workoutsFileName = "Workouts.json";
-  // String weekFileName = "WeekSchedule.json";
-  // bool workoutfileExists = false;
-  // bool weekFileExists = false;
-
-  // List<dynamic> workouts = [];
-  // Map<String, dynamic> weekSchedule = {};
-
   String selectedWorkout = "Workout 1";
 
   @override
   void initState() {
     super.initState();
-
-    // UNCOMMENT
-
-    // getApplicationDocumentsDirectory().then((Directory directory) {
-    //   dir = directory;
-    //   weekJsonFile = File(dir.path + "/" + weekFileName);
-    //   weekFileExists = weekJsonFile.existsSync();
-    //   fetchWorkouts();
-    //   print("WEEK EXISTS: " + weekFileExists.toString());
-    //   weekFileExists ? fetchWeekSchedule() : createWeekFile();
-    //   print("WEEK SCHED: " + weekSchedule.toString());
-    // });
-
     initAsync();
   }
 
@@ -68,6 +40,9 @@ class _SetupRoutineState extends State<SetupRoutine> {
     return Scaffold(
       body: jsonHandler.workouts.length > 0
           ? Container(
+        decoration: BoxDecoration(
+
+        ),
               child: Column(
               children: [
                 SizedBox(
@@ -163,52 +138,4 @@ class _SetupRoutineState extends State<SetupRoutine> {
             ),
         ],
       );
-
-  // UNCOMMENT
-
-  // Future<void> fetchWorkouts() async {
-  //   setState(() {
-  //     workoutJsonFile = File(dir.path + "/" + workoutsFileName);
-  //     workoutfileExists = workoutJsonFile.existsSync();
-  //     workoutfileExists
-  //         ? workouts = json.decode(workoutJsonFile.readAsStringSync())
-  //         : null;
-  //   });
-  // }
-
-  // Future<void> fetchWeekSchedule() async {
-  //   setState(() {
-  //     weekJsonFile = File(dir.path + "/" + weekFileName);
-  //     weekSchedule = json.decode(weekJsonFile.readAsStringSync());
-  //   });
-  //   // weekJsonFile.delete();
-  //   // print("EXISTS? " + weekJsonFile.existsSync().toString());
-  // }
-
-  // void createWeekFile() {
-  //   print("\n \n Creating file");
-
-  //   Map<String, String> emptyWeek = {
-  //     "Sun": "",
-  //     "Mon": "",
-  //     "Tues": "",
-  //     "Wed": "",
-  //     "Thurs": "",
-  //     "Fri": "",
-  //     "Sat": ""
-  //   };
-
-  //   weekJsonFile.createSync();
-  //   weekFileExists = true;
-  //   weekJsonFile.writeAsStringSync(json.encode(emptyWeek));
-
-  //   fetchWeekSchedule();
-  // }
-
-  // void writeToWeekFile(String workout_no, String day) {
-  //   setState(() {
-  //     weekSchedule[day] = workout_no;
-  //   });
-  //   weekJsonFile.writeAsStringSync(json.encode(weekSchedule));
-  // }
 }

@@ -82,7 +82,9 @@ flutter:
   - assets/img/Lateralraise.png
   - assets/img/Lunge.png
   - assets/img/Squat.png
-  
+  - assets/img/Artboard.png
+  - assets/img/Workout/
+
 
   # To add assets to your application, add an assets section, like this:
 

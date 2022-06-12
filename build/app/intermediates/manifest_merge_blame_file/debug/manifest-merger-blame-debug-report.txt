@@ -12,19 +12,19 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml:6:5-66
-14-->C:\FlutterPro\FinalPRoject\android\app\src\debug\AndroidManifest.xml:6:22-64
+14-->C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\MobliePro\fitnessinstructor\android\app\src\debug\AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-15-->[:tflite_flutter_helper] C:\FlutterPro\FinalPRoject\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-71
-15-->[:tflite_flutter_helper] C:\FlutterPro\FinalPRoject\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-68
+15-->[:tflite_flutter_helper] C:\MobliePro\fitnessinstructor\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-71
+15-->[:tflite_flutter_helper] C:\MobliePro\fitnessinstructor\build\tflite_flutter_helper\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-68
 16    <uses-permission android:name="android.permission.CAMERA" />
-16-->[:camera] C:\FlutterPro\FinalPRoject\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
-16-->[:camera] C:\FlutterPro\FinalPRoject\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
+16-->[:camera_android] C:\MobliePro\fitnessinstructor\build\camera_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+16-->[:camera_android] C:\MobliePro\fitnessinstructor\build\camera_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
 17
 18    <application
 19        android:name="android.app.Application"
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.6.0] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:24:18-86
+20-->[androidx.core:core:1.6.0] C:\Users\이주엽\.gradle\caches\transforms-2\files-2.1\4b40d7c102e62bc6a756da9a6ea5f5ea\core-1.6.0\AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
 23        android:label="project" >
@@ -62,17 +62,17 @@
 55            android:value="2" />
 56
 57        <uses-library
-57-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+57-->[androidx.window:window:1.0.0-beta04] C:\Users\이주엽\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 58            android:name="androidx.window.extensions"
-58-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+58-->[androidx.window:window:1.0.0-beta04] C:\Users\이주엽\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
 59            android:required="false" />
-59-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+59-->[androidx.window:window:1.0.0-beta04] C:\Users\이주엽\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
 60        <uses-library
-60-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+60-->[androidx.window:window:1.0.0-beta04] C:\Users\이주엽\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
 61            android:name="androidx.window.sidecar"
-61-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+61-->[androidx.window:window:1.0.0-beta04] C:\Users\이주엽\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 62            android:required="false" />
-62-->[androidx.window:window:1.0.0-beta04] C:\Users\DELL\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+62-->[androidx.window:window:1.0.0-beta04] C:\Users\이주엽\.gradle\caches\transforms-2\files-2.1\596a997b6629d3c6ec8f74ffd9ded17d\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 63    </application>
 64
 65</manifest>
