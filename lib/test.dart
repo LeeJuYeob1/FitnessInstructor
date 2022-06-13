@@ -1,4 +1,3 @@
-import 'dart:ffi';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -183,37 +182,6 @@ class _TestState extends State<Test> {
       test_angle2 = getAngle(pointA, pointB, pointC);
 
       int limbsIndex = 0;
-
-      //   if (!rest) {
-      //     if (doneSets < sets) {
-      //       if (doneReps < reps) {
-      //         checkLimbs(inferenceResults, limbsIndex);
-      //         isProperForm = isPostureCorrect();
-      //         doReps(inferenceResults);
-      //       } else {
-      //         setState(() {
-      //           doneReps = 0;
-      //           doneSets++;
-      //           rest = true;
-      //           restTime = 30;
-      //         });
-      //       }
-      //     } else {
-      //       setState(() {
-      //         doneSets = 0;
-      //         doneReps = 0;
-      //         nextWorkout();
-      //         rest = true;
-      //         restTime = 60;
-      //       });
-      //     }
-      //   } else {
-      //     setState(() {
-      //       restTime = 0;
-      //       rest = false;
-      //     });
-      //   }
-      // });
 
       if (!rest) {
         if (handler.doneSets < sets) {

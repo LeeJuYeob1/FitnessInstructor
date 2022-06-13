@@ -41,7 +41,10 @@ class _SetupRoutineState extends State<SetupRoutine> {
       body: jsonHandler.workouts.length > 0
           ? Container(
         decoration: BoxDecoration(
-
+          image: DecorationImage(
+            image: AssetImage('assets/img/exercise.jpg'),
+            fit: BoxFit.cover
+          )
         ),
               child: Column(
               children: [
@@ -51,7 +54,7 @@ class _SetupRoutineState extends State<SetupRoutine> {
                 Center(
                   child: Text("Routine",
                       textAlign: TextAlign.center,
-                      style: TextStyle(fontFamily: 'Roboto', fontSize: 25)),
+                      style: TextStyle(fontFamily: 'Roboto', fontSize: 30, fontWeight: FontWeight.bold)),
                 ),
                 SizedBox(
                   height: 20,

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\MobliePro\\fitnessinstructor\\build\\path_provider_android\\intermediates\\res\\merged\\debug\\values-pl\\values-pl.xml",
+            "outputFile": "C:\\FlutterPro\\FinalPRoject\\build\\path_provider_android\\intermediates\\res\\merged\\debug\\values-pl\\values-pl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\이주엽\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\values-pl\\values-pl.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "C:\\MobliePro\\fitnessinstructor\\build\\path_provider_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
+            "outputFile": "C:\\FlutterPro\\FinalPRoject\\build\\path_provider_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pl\\values-pl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\이주엽\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\values-pl\\values-pl.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-2\\files-2.1\\4b40d7c102e62bc6a756da9a6ea5f5ea\\core-1.6.0\\res\\values-pl\\values-pl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

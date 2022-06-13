@@ -83,7 +83,7 @@ class _AddWorkoutState extends State<AddWorkout> {
                     children: [
                       Container(
                         child: InkWell(
-                          onTap: () => onSelect(Exercises["dumbell_curl"]),
+                          onTap: () => onSelect(Exercises["squat"]),
                           child: Container(
                             child: Center(
                               child: Image.asset(
@@ -95,7 +95,7 @@ class _AddWorkoutState extends State<AddWorkout> {
                           ),
                         ),
                         decoration: includedExercises
-                                .contains(Exercises["dumbell_curl"])
+                                .contains(Exercises["squat"])
                             ? BoxDecoration(
                                 borderRadius: BorderRadius.circular(0),
                                 boxShadow: [
@@ -146,7 +146,7 @@ class _AddWorkoutState extends State<AddWorkout> {
                     children: [
                       Container(
                         child: InkWell(
-                          onTap: () => onSelect(Exercises["shoulder_press"]),
+                          onTap: () => onSelect(Exercises["lunge"]),
                           child: Center(
                             child: Image.asset(
                                 'assets/img/Lunge.png',
@@ -155,7 +155,7 @@ class _AddWorkoutState extends State<AddWorkout> {
                           ),
                         ),
                         decoration: includedExercises
-                                .contains(Exercises["shoulder_press"])
+                                .contains(Exercises["lunge"])
                             ? BoxDecoration(
                                 borderRadius: BorderRadius.circular(0),
                                 boxShadow: [
@@ -170,8 +170,34 @@ class _AddWorkoutState extends State<AddWorkout> {
                                     ),
                                   ])
                             : null,
-                      )
-                    ],
+                      ),
+                      Container(
+                        child: InkWell(
+                          onTap: () => onSelect(Exercises["dumbbell_curl"]),
+                          child: Center(
+                            child: Image.asset(
+                                'assets/img/Dumbbellcurl.png',
+                                height: card_height,
+                                width: card_width),
+                          ),
+                        ),
+                        decoration: includedExercises
+                            .contains(Exercises["dumbbell_curl"])
+                            ? BoxDecoration(
+                            borderRadius: BorderRadius.circular(0),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.green,
+                                blurRadius: 6.0,
+                                spreadRadius: 0.0,
+                                offset: Offset(
+                                  0.0,
+                                  3.0,
+                                ),
+                              ),
+                            ])
+                            : null,
+                      )],
                   )
                 ],
               ),

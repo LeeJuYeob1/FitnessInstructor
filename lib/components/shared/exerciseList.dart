@@ -2,13 +2,13 @@ import 'exerciseItem.dart';
 import 'exercise_handler.dart';
 
 Map<String, Exercise> Exercises = {
-  "dumbell_curl": Exercise(
+  "squat": Exercise(
       exercise_image: 'assets/img/Squat.png',
-      exercise_name: "dumbell_curl",
-      exercise_displayName: "Dumbell curl",
+      exercise_name: "squat",
+      exercise_displayName: "Squat",
       reps: 1,
       sets: 1,
-      handler: DumbellCurlHandler()),
+      handler: Squat()),
   "lateral_raise": Exercise(
       exercise_image: 'assets/img/Lateralraise.png',
       exercise_name: "lateral_raise",
@@ -16,11 +16,18 @@ Map<String, Exercise> Exercises = {
       reps: 1,
       sets: 1,
       handler: FrontLateralRaiseHandler()),
-  "shoulder_press": Exercise(
+  "lunge": Exercise(
       exercise_image: 'assets/img/Lunge.png',
-      exercise_name: "shoulder_press",
-      exercise_displayName: "Shoulder press",
+      exercise_name: "lunge",
+      exercise_displayName: "Lunge",
       reps: 1,
       sets: 1,
-      handler: ShoulderPressHandler()),
+      handler: Lunge()),
+  "dumbbell_curl": Exercise(
+      exercise_image: 'assets/img/Dumbbellcurl.png',
+      exercise_name: "dumbbell_curl",
+      exercise_displayName: "Dumbbell_curl",
+      reps: 1,
+      sets: 1,
+      handler: DumbellCurlHandler()),
 };

@@ -322,3 +322,197 @@ class ShoulderPressHandler extends ExerciseHandler {
     }
   }
 }
+
+// squat handler
+class Squat extends ExerciseHandler {
+  var angle1 = 0.0;
+  var angle2 = 0.0;
+
+  List<int> pointA = [];
+  List<int> pointB = [];
+  List<int> pointC = [];
+
+  void init() {
+    limbs = [
+      [
+        [11, 13, 15],
+        false,
+        0,
+        180
+      ],
+      [
+        [12, 14, 16],
+        false,
+        180,
+        360
+      ],
+      [
+        [12, 11, 13],
+        false,
+        0,
+        360
+      ],
+      [
+        [11, 12, 14],
+        false,
+        0,
+        360
+      ],
+    ];
+    targets = [
+      [
+        [11, 13, 15],
+        false
+      ],
+      [
+        [12, 14, 16],
+        false
+      ]
+    ];
+
+    doneReps = 0;
+    doneSets = 0;
+    angle = 0;
+    stage = "start";
+    restart = true;
+  }
+
+  void doReps(var inferenceResults) {
+    if (isPostureCorrect()) {
+      var a = 11;
+      var b = 13;
+      var c = 15;
+      pointA = [inferenceResults[a][0], inferenceResults[a][1]];
+      pointB = [inferenceResults[b][0], inferenceResults[b][1]];
+      pointC = [inferenceResults[c][0], inferenceResults[c][1]];
+      angle1 = getAngle(pointA, pointB, pointC);
+
+      a = 12;
+      b = 14;
+      c = 16;
+      pointA = [inferenceResults[a][0], inferenceResults[a][1]];
+      pointB = [inferenceResults[b][0], inferenceResults[b][1]];
+      pointC = [inferenceResults[c][0], inferenceResults[c][1]];
+      angle2 = getAngle(pointA, pointB, pointC);
+      print("TARGET ANGLE: " + angle.toString());
+
+      if (restart) {
+        if (angle1 < 30 && angle2 < 30) {
+          stage = "up";
+          restart = false;
+        }
+      } else {
+        if (angle1 > 160 && angle2 > 160) {
+          stage = "down";
+        }
+        if (angle1 < 30 && angle2 < 30 && stage == "down") {
+          stage = "up";
+          doneReps += 1;
+        }
+      }
+    }
+    else {
+      restart = true;
+      stage = "start";
+      print("restart");
+    }
+  }
+}
+
+// lunge handler
+class Lunge extends ExerciseHandler {
+  var angle1 = 0.0;
+  var angle2 = 0.0;
+
+  List<int> pointA = [];
+  List<int> pointB = [];
+  List<int> pointC = [];
+
+  void init() {
+    limbs = [
+      [
+        [11, 13, 15],
+        false,
+        0,
+        180
+      ],
+      [
+        [12, 14, 16],
+        false,
+        0,
+        360
+      ],
+      [
+        [12, 11, 13],
+        false,
+        0,
+        360
+      ],
+      [
+        [11, 12, 14],
+        false,
+        0,
+        360
+      ],
+    ];
+    targets = [
+      [
+        [11, 13, 15],
+        false
+      ],
+      [
+        [12, 14, 16],
+        false
+      ]
+    ];
+
+    doneReps = 0;
+    doneSets = 0;
+    angle = 0;
+    stage = "start";
+    restart = true;
+  }
+
+  void doReps(var inferenceResults) {
+    if (isPostureCorrect()) {
+      var a = 11;
+      var b = 13;
+      var c = 15;
+      pointA = [inferenceResults[a][0], inferenceResults[a][1]];
+      pointB = [inferenceResults[b][0], inferenceResults[b][1]];
+      pointC = [inferenceResults[c][0], inferenceResults[c][1]];
+      angle1 = getAngle(pointA, pointB, pointC);
+
+      a = 12;
+      b = 14;
+      c = 16;
+      pointA = [inferenceResults[a][0], inferenceResults[a][1]];
+      pointB = [inferenceResults[b][0], inferenceResults[b][1]];
+      pointC = [inferenceResults[c][0], inferenceResults[c][1]];
+      angle2 = getAngle(pointA, pointB, pointC);
+      print("TARGET ANGLE: " + angle.toString());
+
+      if (restart) {
+        if (angle1 < 90 && angle2 < 130) {
+          stage = "up";
+          restart = false;
+        }
+      } else {
+        if (angle1 > 130 && angle2 > 160) {
+          stage = "down";
+        }
+        if (angle1 < 90 && angle2 < 130 && stage == "down") {
+          stage = "up";
+          doneReps += 1;
+        }
+      }
+    }
+    else {
+      restart = true;
+      stage = "start";
+      print("restart");
+    }
+  }
+}
+
+
